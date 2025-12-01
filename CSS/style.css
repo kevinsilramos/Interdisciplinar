@@ -409,7 +409,8 @@ h3 {
 
 /* Newsletter */
 .newsletter {
-    background-image: url('/IMG/banner1.png'); /* caminho da imagem */
+    background-color: black;
+    background-image: url(/banner/banner1.png);
     background-size: cover;   /* Ajusta a imagem pra cobrir toda a div */
     background-position: center; /* centraliza a imagem */
     background-repeat: no-repeat; /* evita repetição */
