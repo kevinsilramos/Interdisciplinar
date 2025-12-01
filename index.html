@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/style.css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <title>JWC Eletrônica</title>
+  <link rel="icon" href="IMG/JWC_LOGO2.png" type="image/png"/>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="IMG/LOGOTIPO.png" alt="JWC" width="180"/>
+        </a>
+        
+        <ul class="categorias-site">
+         <li><a href="Sobre/sobre.html"> Sobre </a></li>
+         <li><a href="https://lista.mercadolivre.com.br/_CustId_456650590?item_id=MLB2198769933&category_id=MLB264689&seller_id=456650590&client=recoview-selleritems&recos_listing=true#origin=upp&component=sellerData&typeSeller=classic" target="_blank"> Produtos </a></li>
+         <li><a href="https://eletroconsertos.vercel.app/">Rastreie seu conserto</a></li>
+
+        </ul>
+
+        <div class="menu-icon">
+          <img src="IMG/menu.png" alt="Abrir menu" />
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero background-verde">
+      <div class="container">
+        <div class="Home-txtImg">
+          <div class="txt-principal">
+            <h1>Assistência Técnica</h1>
+            <p>Especializada em todas as marcas!</p>
+            <div class="btn-butao" on>
+              <a href="https://eletroconsertos.vercel.app/" class="btn-gradiente">Rastreie seu conserto</a>
+            </div>
+          </div>
+          <div class="imagem">
+            <img src="IMG/FOTOJOSE.jpg" alt="Foto de José, o técnico">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resultados">
+      <div class="container">
+        <div class="resultados-txt">
+          <p>Abertos de Segunda a Sexta, das 08:30 às 17:30, e no Sábado até as 12:00.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="diferencias">
+      <div class="container">
+        <div class="card">
+          <img src="IMG/Conserto.png" alt="Conserto"/>
+          <h3 class="titulo">Assistência Técnica</h3>
+          <p>
+          Somos especilizados em consertos de eletrônicos em geral. Trabalhamos desde 1996 na área e já deixamos milhares de clientes satisfeitos!
+        </p>
+        </div>
+        <div class="card">
+          <img src="IMG/Peça.png" alt="Peça" />
+          <h3 class="titulo">Venda de Peças</h3>
+            <p>
+              Também vendemos peças para que você conserte seu eletrônico! Estamos no mercado livre, com dezenas de vendas e avaliações altíssimas!
+            </p>
+        </div>
+        <div class="card">
+          <img src="IMG/Rastreio.png" alt="Rastreio"/>
+          <h3 class="titulo">Rastreie seu conserto</h3>
+          <p>
+            Para acompanhar o pedido, criamos um sistema único para que você possa acompanhar o conserto de seu eletrônico!
+          </p>
+        </div>
+      </div> 
+    </section>
+
+  <section class="casa">
+      <div class="container">
+        <div class="casa-img">
+          <div id="map"></div>
+        </div>
+        <div class="casa-text">
+          <h2>Venha até nossa loja!</h2>
+          <p>Para realizar o seu conserto, venha até a nossa loja para que possamos examinar o estado e coletá-lo. Estamos localizados na <a href="https://www.google.com/maps/place/Eletr%C3%B4nica+JWC/@-23.5707679,-46.4933796,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce67093eec8655:0x29edeb8e3139b3eb!8m2!3d-23.5707728!4d-46.4908047!16s%2Fg%2F11j53c0tj1?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D">R. Luís Norberto Freire, 448 (Jardim Brasília) Zona Leste de São Paulo.</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="produtos">
+      <h2 class="titulo-produtos">Um pouco dos nossos produtos:</h2>
+  <div class="cardproduto">
+    
+    <div class="card-img">
+      <img src="IMG/produto.jpg" alt="Placa Principal TV Samsung">
+    </div>
+    <h3>Placa Principal TV Samsung</h3>
+    <a href="https://www.mercadolivre.com.br/placa-principal-samsung--un40f5500agxzd-bn4101958/up/MLBU3481428732?pdp_filters=seller_id%3A456650590#polycard_client=search-nordic&search_layout=grid&position=12&type=product&tracking_id=9a94bb0f-2fe6-4534-a6c0-d60b7caafaa7&wid=MLB4243003753&sid=search" target="_blank" class="btn-gradiente">Ver Mais</a>
+  </div>
+
+  <div class="cardproduto">
+    <div class="card-img">
+      <img src="IMG/produto2.jpg" alt="Placa Principal TV Sony">
+    </div>
+    <h3>Placa Principal TV <br> Sony</h3>
+    <a href="https://www.mercadolivre.com.br/placa-principal-sony--kdl32ex655-188538851/up/MLBU3137395337?pdp_filters=seller_id%3A456650590#polycard_client=search-nordic&search_layout=grid&position=15&type=product&tracking_id=9a94bb0f-2fe6-4534-a6c0-d60b7caafaa7&wid=MLB4040480137&sid=search" target="_blank" class="btn-gradiente" >Ver Mais</a>
+  </div>
+
+  <div class="cardproduto">
+    <div class="card-img">
+      <img src="IMG/produto3.jpg" alt="Placa Principal TV Philips">
+    </div>
+    <h3>Placa Principal TV Philips</h3>
+    <a href="https://www.mercadolivre.com.br/placa-principal-philips--55pug651378-715g8709m0bb01005k/up/MLBU1168175086?pdp_filters=seller_id%3A456650590#polycard_client=search-nordic&search_layout=grid&position=9&type=product&tracking_id=9a94bb0f-2fe6-4534-a6c0-d60b7caafaa7&wid=MLB4583079018&sid=search" target="_blank" class="btn-gradiente" >Ver Mais</a>
+  </div>
+</section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="box-newsletter">
+          <h2>Dúvidas? Nos mande uma mensagem!</h2>
+          <a href="https://wa.me/5511915817208" class="btn-gradiente">Toque para mandar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+   <footer>
+    <div class="container">
+      <div class="footer-coluna">
+        <p>Todos os direitos reservados a <a href="https://www.facebook.com/cariocazica45">José Moura de Souza.</a><br>© 2025, <a href="https://www.facebook.com/p/Eletronica-JWC-100037322123776/">Eletrônica JWC</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    
+  <script src="JS/main.js"></script> 
+  <script src="JS/script.js"></script>
+</body>
+</html>
